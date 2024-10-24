@@ -12,7 +12,7 @@ fun main() {
     }
 
     when (operator) {
-        "+" -> println("Resultado: ${num1 - num2}")
+        "+" -> println("Resultado: ${num1 + num2}")
         "-" -> println("Resultado: ${num1 - num2}")
         "*" -> println("Resultado: ${num1 * num2}")
         "/" -> {
