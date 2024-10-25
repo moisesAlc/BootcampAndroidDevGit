@@ -14,6 +14,7 @@ fun main() {
     when (operator) {
         "-" -> println("Resultado: ${num1 - num2}")
         "*" -> println("Resultado: ${num1 * num2}")
+        "+" -> println("Resultado: ${num1 + num2}")
         "/" -> {
             if (num2 == 0.0) {
                 println("Erro: Divisão por zero não é permitida.")
@@ -21,7 +22,6 @@ fun main() {
                 println("Resultado: ${num1 / num2}")
             }
         }
-        "+" -> println("Erro: A operação de soma não é permitida!")
         else -> println("Erro: Operador inválido.")
     }
 }
