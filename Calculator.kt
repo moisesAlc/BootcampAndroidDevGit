@@ -7,7 +7,7 @@ fun main() {
     }
 
     print("Digite o operador (+, -, *, /): ")
-    val operator = readLine()?.trim()
+    val operator = readLine()?gi
 
     print("Digite o segundo número: ")
     val num2 = readLine()?.toDoubleOrNull()
