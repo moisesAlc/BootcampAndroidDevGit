@@ -1,9 +1,9 @@
 fun main() {
-    print("Digite o primeiro número: ")
+    println("Digite o primeiro número: ")
     val num1 = readLine()?.toDoubleOrNull()
-    print("Digite o operador (+, -, *, /): ")
+    println("Digite o operador (+, -, *, /): ")
     val operator = readLine()
-    print("Digite o segundo número: ")
+    println("Digite o segundo número: ")
     val num2 = readLine()?.toDoubleOrNull()
 
     if (num1 == null || num2 == null) {
@@ -21,7 +21,8 @@ fun main() {
                 println("Resultado: ${num1 / num2}")
             }
         }
-        "+" -> println("Erro: A operação de soma não é permitida!")
+        //    erro corrigido
+        // "+" -> println("Erro: A operação de soma não é permitida!")
         else -> println("Erro: Operador inválido.")
     }
 }
