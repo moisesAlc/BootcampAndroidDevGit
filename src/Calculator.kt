@@ -1,3 +1,5 @@
+package src
+
 fun main() {
     print("Digite o primeiro número: ")
     val num1 = readLine()?.toDoubleOrNull()
@@ -13,6 +15,7 @@ fun main() {
 
     when (operator) {
         "-" -> println("Resultado: ${num1 - num2}")
+        "+" -> println("Resultado: ${num1 + num2}")
         "*" -> println("Resultado: ${num1 * num2}")
         "/" -> {
             if (num2 == 0.0) {
